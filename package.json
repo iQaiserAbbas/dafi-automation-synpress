@@ -1,0 +1,24 @@
+{
+  "name": "synpress-testing",
+  "version": "1.0.0",
+  "description": "Cypress automation of web3/dapps using the Synpress that allows us to test metamask login, authentication and interaction with smart contracts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "env-cmd -f .env npx synpress run -cf synpress.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@synthetixio/synpress": "^1.2.0",
+    "cypress": "^10.6.0",
+    "cypress-xpath": "^2.0.1",
+    "env-cmd": "^10.1.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}
